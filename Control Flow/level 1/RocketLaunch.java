@@ -1,0 +1,20 @@
+package ass3;
+
+import java.util.*;
+
+public class RocketLaunch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+      
+        int counter = sc.nextInt();
+        sc.close();
+
+        while (counter >= 1) {
+            System.out.println(counter);
+            counter--;  
+        }
+
+        System.out.println("Launch!");
+    }
+}
